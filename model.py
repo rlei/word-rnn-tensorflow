@@ -1,6 +1,6 @@
 import tensorflow as tf
-from tensorflow.python.ops import rnn_cell
-from tensorflow.python.ops import seq2seq
+from tensorflow.contrib.rnn.python.ops import rnn_cell
+from tensorflow.contrib.seq2seq.python.ops import seq2seq
 import random
 import numpy as np
 
